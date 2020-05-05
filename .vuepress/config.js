@@ -1,6 +1,10 @@
 module.exports = {
+  dest: 'docs', /* production build with vuepress build */
   title: 'DeployScience',
-  description: 'Where data science meets engineering',
+  description: 'Bringing data science to life',
+  head: [
+    ['link', { rel: 'icon', href: '/deployscience_web.png' }]
+  ],
   themeConfig: {
     sidebar: {
       '/solutions/': [

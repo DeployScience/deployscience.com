@@ -1,7 +1,7 @@
 module.exports = {
   dest: 'docs', /* production build with vuepress build */
   title: 'DeployScience',
-  description: 'Bringing data science to life',
+  description: 'Bring data science to life',
   head: [
     ['link', { rel: 'icon', href: '/deployscience_web.png' }]
   ],
